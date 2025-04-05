@@ -1,12 +1,11 @@
 /* Base Styles */
 body {
-    background: url('https://plus.unsplash.com/premium_photo-1686750875768-59660514f05d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGRhcmslMjBncmFkaWVudHxlbnwwfHwwfHx8MA%3D%3D')
+    background: url('https://wallpapercave.com/wp/wp11767488.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
-
 
 
 a {
