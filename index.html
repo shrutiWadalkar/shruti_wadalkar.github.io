@@ -32,11 +32,33 @@
         <p>Showcasing my AI innovations & automation demos</p>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="container my-5 text-center">
-        <h2>About Me</h2>
-        <p>I am passionate about technology, AI, and education. Here are some of my latest AI projects and demos.</p>
-    </section>
+   <!-- About Section with Language Toggle -->
+<section id="about" class="container my-5 text-center">
+    <h2>About Me</h2>
+
+    <!-- Language Buttons -->
+    <div class="mb-3">
+        <button class="btn btn-outline-primary btn-sm mx-1" onclick="showLanguage('en')">English</button>
+        <button class="btn btn-outline-success btn-sm mx-1" onclick="showLanguage('hi')">हिंदी</button>
+        <button class="btn btn-outline-warning btn-sm mx-1" onclick="showLanguage('mr')">मराठी</button>
+    </div>
+
+    <!-- English Version -->
+    <div id="about-en">
+        <p>I’m Shruti Kharote Wadalakar – an AI Project Manager and Solutions Developer, focused on building emotionally intelligent AI tools that solve real-life problems. I’ve built AI chatbots for working moms, automation tools for coaches, and led projects using Generative AI, NLP, and neuroscience.</p>
+    </div>
+
+    <!-- Hindi Version -->
+    <div id="about-hi" style="display: none;">
+        <p>नमस्ते! मैं श्रुती खरोटे वाडळकर — एक AI प्रोजेक्ट मैनेजर और सॉल्यूशन्स डेवेलपर हूं, जो असली जीवन की चुनौतियों को हल करने वाले AI टूल्स बनाने के लिए समर्पित हूं। मैंने कामकाजी माताओं के लिए चैटबॉट्स, कोचिंग इंडस्ट्री के लिए ऑटोमेशन टूल्स और जनरेटिव AI का उपयोग करके कई इनोवेटिव प्रोजेक्ट्स को लीड किया है।</p>
+    </div>
+
+    <!-- Marathi Version -->
+    <div id="about-mr" style="display: none;">
+        <p>नमस्कार! मी श्रुती खरोटे वाडळकर — AI प्रोजेक्ट मॅनेजर आणि सोल्युशन डेव्हलपर. जीवनातील खऱ्या अडचणी सोडवणारे भावनिकदृष्ट्या समृद्ध AI टूल्स तयार करण्यावर माझा भर आहे. मी काम करणाऱ्या मातांसाठी चॅटबॉट्स, कोचसाठी ऑटोमेशन टूल्स आणि NLP, जनरेटिव AI चा वापर करून अनेक प्रकल्प यशस्वी केले आहेत.</p>
+    </div>
+</section>
+
 
     <!-- Projects Section -->
     <section id="projects" class="container my-5">
