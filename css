@@ -6,7 +6,7 @@ body {
     background-attachment: fixed;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
-}
+
 
 
 a {
@@ -130,4 +130,5 @@ video {
 
 .contact a:hover {
     text-decoration: underline;
+}
 }
