@@ -1,9 +1,10 @@
 /* styles.css */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #121212;
+    background-color: #0e0e0e;
     color: #eaeaea;
     margin: 0;
+    padding: 0;
 }
 
 .navbar {
@@ -21,8 +22,7 @@ body {
     color: #00ffc3 !important;
 }
 
-header,
-.hero {
+header {
     background: linear-gradient(135deg, #1a1a1a, #292929);
     color: #ffffff;
     text-align: center;
@@ -35,15 +35,15 @@ header p {
 }
 
 section {
-    background-color: #121212 !important;
-    color: #eaeaea !important;
+    background-color: #0e0e0e;
+    color: #eaeaea;
     padding: 60px 0;
 }
 
 #about,
 #projects,
 #contact {
-    background-color: #121212 !important;
+    background-color: #0e0e0e;
 }
 
 .container {
@@ -59,7 +59,7 @@ h2 {
 }
 
 .card {
-    background-color: #1e1e1e !important;
+    background-color: #1e1e1e;
     border: none;
     color: #e0e0e0;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -95,7 +95,7 @@ a:hover {
 }
 
 .contact {
-    background-color: #1a1a1a !important;
-    color: #ffffff !important;
+    background-color: #1a1a1a;
+    color: #ffffff;
     padding: 50px 0;
 }
