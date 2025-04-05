@@ -21,11 +21,33 @@ body {
     color: #00ffc3 !important;
 }
 
+header,
 .hero {
     background: linear-gradient(135deg, #1a1a1a, #292929);
     color: #ffffff;
     text-align: center;
     padding: 80px 20px;
+}
+
+header h1,
+header p {
+    color: #ffffff;
+}
+
+section {
+    background-color: #121212 !important;
+    color: #eaeaea !important;
+    padding: 60px 0;
+}
+
+#about,
+#projects,
+#contact {
+    background-color: #121212 !important;
+}
+
+.container {
+    background-color: transparent !important;
 }
 
 .section-title,
@@ -52,15 +74,6 @@ h2 {
     color: #00ffc3;
 }
 
-.container {
-    background-color: transparent !important;
-}
-
-section {
-    background-color: #121212;
-    padding: 40px 0;
-}
-
 ul {
     list-style: none;
     padding-left: 0;
@@ -82,7 +95,7 @@ a:hover {
 }
 
 .contact {
-    background-color: #1a1a1a;
-    color: #ffffff;
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
     padding: 50px 0;
 }
