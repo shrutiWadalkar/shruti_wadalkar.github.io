@@ -1,44 +1,130 @@
-/* styles.css */
+/* Base Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #f4f6f9;
+    color: #212529;
+    line-height: 1.6;
 }
 
-.navbar {
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
-.hero {
-    background: linear-gradient(135deg, #007bff, #6610f2);
-    color: white;
-    text-align: center;
-    padding: 80px 20px;
-}
-
-.section-title {
-    font-size: 2rem;
-    font-weight: bold;
+h1, h2, h3 {
+    font-weight: 600;
     margin-bottom: 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #222;
+    padding: 15px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffc107 !important;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: #f8f9fa !important;
+    margin-left: 15px;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Hero */
+header {
+    background: linear-gradient(135deg, #007bff, #6f42c1);
+    color: white;
+    padding: 100px 20px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Sections */
+.section-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #333;
     text-align: center;
 }
 
+section {
+    padding: 60px 0;
+}
+
+/* Cards */
 .card {
-    transition: transform 0.3s;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
 }
 
+.card-body {
+    padding: 20px;
+}
+
+.card h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/* Video */
+video {
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+/* Language Buttons */
+#about .btn {
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 6px 16px;
+}
+
+/* Contact */
 .contact {
-    background-color: #343a40;
+    background-color: #1f1f1f;
     color: white;
-    padding: 50px 0;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
 }
 
 .contact a {
     color: #ffc107;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
+}
+
+.contact a:hover {
+    text-decoration: underline;
 }
