@@ -1,10 +1,13 @@
 /* Base Styles */
 body {
+    background: url('https://wallpapercave.com/fuwp/uwp4725944.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f6f9;
-    color: #212529;
-    line-height: 1.6;
 }
+
 
 a {
     text-decoration: none;
