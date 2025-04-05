@@ -1,103 +1,130 @@
-/* styles.css */
+/* Base Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #121212; /* Deep elegant black */
-    color: #e0e0e0;
-    margin: 0;
-    padding: 0;
+    background-color: #f4f6f9;
+    color: #212529;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
 }
 
 /* Navbar */
 .navbar {
-    background-color: #1f1f1f;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-}
-.navbar-brand,
-.nav-link {
-    color: #f1f1f1 !important;
-    font-weight: 500;
-}
-.nav-link:hover {
-    color: #00ffd1 !important;
+    background-color: #222;
+    padding: 15px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Hero Section */
-header {
-    background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
-    color: #ffffff;
-    text-align: center;
-    padding: 80px 20px;
-}
-header h1,
-header p {
-    color: #ffffff;
-}
-
-/* General Section Styling */
-section {
-    padding: 60px 20px;
-}
-.section-title {
-    font-size: 2rem;
+.navbar-brand {
     font-weight: bold;
-    margin-bottom: 30px;
-    color: #ffffff;
-    text-align: center;
+    font-size: 1.5rem;
+    color: #ffc107 !important;
 }
 
-/* About Section */
-#about {
-    background-color: #1e1e1e;
-    color: #eaeaea;
-}
-#about p, #about li {
-    font-size: 1.05rem;
-    line-height: 1.7;
-}
-#about ul li::before {
-    content: "✔️ ";
-    color: #00ffd1;
-    margin-right: 6px;
-}
-
-/* Projects Section */
-#projects {
-    background-color: #252525;
-}
-.card {
-    background-color: #2f2f2f;
-    border: none;
-    color: #ffffff;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border-radius: 12px;
-}
-.card:hover {
-    transform: scale(1.03);
-    box-shadow: 0 4px 20px rgba(0, 255, 195, 0.2);
-}
-.card-body h3 {
-    color: #00ffd1;
-}
-
-/* Contact Section */
-#contact {
-    background-color: #1a1a1a;
-    color: #f0f0f0;
-}
-#contact a {
-    color: #00ffd1;
+.navbar-nav .nav-link {
     font-weight: 500;
-    text-decoration: none;
-}
-#contact a:hover {
-    color: #ffc107;
+    color: #f8f9fa !important;
+    margin-left: 15px;
+    transition: color 0.3s;
 }
 
-/* Footer */
-footer {
-    background-color: #0f0f0f;
-    color: #aaaaaa;
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Hero */
+header {
+    background: linear-gradient(135deg, #007bff, #6f42c1);
+    color: white;
+    padding: 100px 20px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Sections */
+.section-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #333;
     text-align: center;
+}
+
+section {
+    padding: 60px 0;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.card-body {
     padding: 20px;
-    font-size: 0.9rem;
+}
+
+.card h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/* Video */
+video {
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+/* Language Buttons */
+#about .btn {
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 6px 16px;
+}
+
+/* Contact */
+.contact {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #ffc107;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact a:hover {
+    text-decoration: underline;
 }
