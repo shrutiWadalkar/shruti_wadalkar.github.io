@@ -1,20 +1,20 @@
 /* styles.css */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #121212;
-    color: #e0e0e0;
+    background-color: #121212; /* True dark background */
+    color: #f0f0f0; /* Light text for contrast */
     margin: 0;
     padding: 0;
 }
 
 .navbar {
-    background-color: #1f1f1f !important;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    background-color: #1f1f1f;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
 
 .navbar-brand,
 .nav-link {
-    color: #e0e0e0 !important;
+    color: #f0f0f0 !important;
     font-weight: 500;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #1f1f1f, #2a2a2a);
+    background: linear-gradient(135deg, #1e1e1e, #2a2a2a);
     color: #ffffff;
     text-align: center;
     padding: 80px 20px;
@@ -59,16 +59,16 @@ h2 {
 }
 
 .card {
-    background-color: #252525;
+    background-color: #242424;
     border: none;
-    color: #e0e0e0;
+    color: #f0f0f0;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 12px;
 }
 
 .card:hover {
     transform: scale(1.03);
-    box-shadow: 0px 4px 20px rgba(0, 255, 195, 0.15);
+    box-shadow: 0 4px 20px rgba(0, 255, 195, 0.1);
 }
 
 .card-body h3 {
@@ -88,11 +88,11 @@ ul li::before {
 
 a {
     color: #00ffc3;
+    text-decoration: none;
 }
 
 a:hover {
     color: #ffc107;
-    text-decoration: none;
 }
 
 .contact {
@@ -104,4 +104,5 @@ footer {
     color: #aaaaaa;
     text-align: center;
     padding: 20px;
+    font-size: 0.9rem;
 }
