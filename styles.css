@@ -1,4 +1,4 @@
-/* Base Styles */
+l/* Base Styles */
 body {
     background-size: cover;
     background-position: center;
@@ -162,31 +162,19 @@ video {
     margin-top: 15px;
 }
 
-/* Language Buttons */
-#about .btn {
-    font-weight: 500;
-    border-radius: 20px;
-    padding: 6px 16px;
-}
 
-/* Contact */
-.contact {
-    background-color: #1f1f1f;
-    color: white;
-    padding: 60px 0;
-    text-align: center;
-}
-
-.contact p {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-}
 
 .contact a {
-    color: #ffc107;
-    text-decoration: none;
-    font-weight: 500;
+  color: #ffc107; /* gold/yellow */
+  text-decoration: none;
+  font-weight: 500;
 }
+
+.contact a:hover {
+  text-decoration: underline;
+  color: #fff; /* optional hover effect */
+}
+
 
 .contact a:hover {
     text-decoration: underline;
