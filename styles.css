@@ -9,6 +9,11 @@ body {
     line-height: 1.6;
 }
 
+html {
+    font-size: 15px; /* sets a readable minimum size */
+}
+
+
 a {
     text-decoration: none;
     color: inherit;
