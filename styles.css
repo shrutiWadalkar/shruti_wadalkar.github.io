@@ -9,13 +9,6 @@ body {
     line-height: 1.6;
 }
 
-header ul {
-    padding-left: 20px;
-    margin-top: 10px;
-}
-
-
-
 html {
     font-size: 15px; /* sets a readable minimum size */
 }
