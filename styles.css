@@ -16,14 +16,6 @@ body {
     margin-top: 20px;
 }
 
-.feature-item {
-    font-size: 1.05rem;
-    max-width: 700px;
-    line-height: 1.6;
-    background-color: rgba(255, 255, 255, 0.05);
-    padding: 10px 20px;
-    border-radius: 12px;
-}
 
 html {
     font-size: 15px; /* sets a readable minimum size */
